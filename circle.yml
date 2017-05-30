@@ -1,5 +1,3 @@
-deployment:
-  autosync:
-    branch: master
-    commands:
-      - git push git@github.com:yutakakinjyo/sync_test.git master
+test:
+  override:
+    - git push git@github.com:yutakakinjyo/sync_test.git master
