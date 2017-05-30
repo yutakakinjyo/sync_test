@@ -1,0 +1,5 @@
+deployment:
+  autosync:
+    branch: master
+    commands:
+      - git push git@github.com:yutakakinjyo/sync_test.git master
