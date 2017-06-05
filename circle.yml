@@ -3,5 +3,6 @@ test:
     - echo "dummy test"
 deployment:
   master:
+    branch: master
     commands:
       - git push git@github.com:yutakakinjyo/sync_test.git master
