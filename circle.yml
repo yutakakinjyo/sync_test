@@ -2,7 +2,7 @@ test:
   override:
     - echo "dummy test"
 deployment:
-  autosync:
+  master:
     branch: master
-  commands:
-    - git push git@github.com:yutakakinjyo/sync_test.git master
+    commands:
+      - git push git@github.com:yutakakinjyo/sync_test.git master
